@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eventr\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-03-11 21:16+0530\n"
+"Last-Translator: \n"
+"Language-Team: Binny V A <binnyva@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t;e\n"
+"X-Poedit-Basepath: /var/www/html/Others/Wordpress/wordpress/\n"
+"X-Poedit-SearchPath-0: wp-content/plugins/eventr\n"
+
+#: wp-content/plugins/eventr/event_form.php:16
+#, php-format
+msgid "%s Event"
+msgstr "%s Evenemang"
+
+#: wp-content/plugins/eventr/event_form.php:19
+#: wp-content/plugins/eventr/attendees.php:22
+#, php-format
+msgid "To add the registeration form to your blog, insert the code [EVENTR REGISTRATION %d] into any post."
+msgstr "För att lägga till evenemanget i din blogg, kopiera in [EVENTR REGISTRATION %d] där du vill ha formuläret."
+
+#: wp-content/plugins/eventr/event_form.php:41
+msgid "Event Name"
+msgstr "Evenemangsnamn"
+
+#: wp-content/plugins/eventr/event_form.php:48
+msgid "Description"
+msgstr "Beskrivning"
+
+#: wp-content/plugins/eventr/event_form.php:55
+#: wp-content/plugins/eventr/events.php:32
+msgid "Event Date"
+msgstr "Sista anmälningsdag"
+
+#: wp-content/plugins/eventr/event_form.php:58
+msgid "Use YYYY-MM-DD format. This is an optional field - if you set a date, the event will not accept further registerations after the date."
+msgstr "Använd följande datumformat ÅÅÅÅ-MM-DD. Detta fält är valfritt, efter angivet datum så accepteras inga fler anmälningar."
+
+#: wp-content/plugins/eventr/event_form.php:63
+msgid "Maximum Number of Attendees"
+msgstr "Max antal anmälningar."
+
+#: wp-content/plugins/eventr/event_form.php:66
+msgid "Set this as 0 to allow unlimited registerations."
+msgstr "Använd 0 (noll) för obegränsat antal anmälningar."
+
+#: wp-content/plugins/eventr/event_form.php:71
+#: wp-content/plugins/eventr/events.php:33
+msgid "Status"
+msgstr "Status"
+
+#: wp-content/plugins/eventr/event_form.php:73
+#: wp-content/plugins/eventr/events.php:45
+msgid "Active"
+msgstr "Aktivt Evenemang"
+
+#: wp-content/plugins/eventr/event_form.php:84
+msgid "Save"
+msgstr "Spara"
+
+#: wp-content/plugins/eventr/attendees.php:5
+#: wp-content/plugins/eventr/attendees.php:101
+msgid "Delete Selected"
+msgstr "Ta bort markerade"
+
+#: wp-content/plugins/eventr/attendees.php:14
+msgid "Attendees for "
+msgstr "Anmälda för"
+
+#: wp-content/plugins/eventr/attendees.php:23
+#, php-format
+msgid "To show the attendee list, insert the code [EVENTR ATTENDEES %d] into any post."
+msgstr "För att visa anmälningslistan i din blogg, kopiera in [EVENTR ATTENDEES %d] där du vill ha listan."
+
+#: wp-content/plugins/eventr/attendees.php:31
+msgid "Attendee Name"
+msgstr "Den anmäldes namn"
+
+#: wp-content/plugins/eventr/attendees.php:32
+#: wp-content/plugins/eventr/show_registeration_form.php:285
+#: wp-content/plugins/eventr/options.php:30
+msgid "Email"
+msgstr "E-post"
+
+#: wp-content/plugins/eventr/attendees.php:33
+msgid "Registered On"
+msgstr "Anmäld den"
+
+#: wp-content/plugins/eventr/attendees.php:34
+#: wp-content/plugins/eventr/events.php:34
+msgid "Action"
+msgstr "Redigera"
+
+#: wp-content/plugins/eventr/attendees.php:69
+#: wp-content/plugins/eventr/events.php:57
+msgid "Delete"
+msgstr "Ta bort"
+
+#: wp-content/plugins/eventr/attendees.php:76
+msgid "No attendeees found."
+msgstr "Inga anmälningar hittades."
+
+#: wp-content/plugins/eventr/attendees.php:102
+msgid "Export Attendee data for this event as a CSV file"
+msgstr "Exportera anmälningsdatat för det här evenemanget till en CSV fil."
+
+#: wp-content/plugins/eventr/attendees.php:128
+msgid "Please select some rows to delete"
+msgstr "Välj några rader att ta bort"
+
+#: wp-content/plugins/eventr/attendees.php:132
+msgid "You are about to delete this Attendee. Press 'OK' to delete and 'Cancel' to stop."
+msgstr "Du håller på att ta bort den här anmälan. Klicka 'OK' för att verkställa och 'Avbryt' för att avbryta."
+
+#: wp-content/plugins/eventr/show_attendee_list.php:21
+msgid "Total Attendees: "
+msgstr "Antal Anmälda:"
+
+#: wp-content/plugins/eventr/show_attendee_list.php:49
+msgid "No attendees found."
+msgstr "Inga anmälningar hittades."
+
+#: wp-content/plugins/eventr/eventr.php:22
+#: wp-content/plugins/eventr/events.php:19
+msgid "Manage Events"
+msgstr "Hantera Evenemang"
+
+#: wp-content/plugins/eventr/eventr.php:34
+msgid "Eventr Settings"
+msgstr "Eventr Inställningar"
+
+#: wp-content/plugins/eventr/eventr.php:37
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: wp-content/plugins/eventr/eventr.php:38
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte rättighet att se denhär sidan."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:147
+msgid "Invalid Event ID given"
+msgstr "Ogiltigt Evenemangs ID"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:149
+msgid "The event have ended - no more registrations are allowed."
+msgstr "Anmälningstiden har gått ut -inga fler anmälningar tillåts."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:153
+msgid "Event is closed - no more registrations allowed."
+msgstr "Evenemanget är stängt -inga fler anmälningar tillåts."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:159
+msgid "Maximum number of attendees reached - registrations are closed."
+msgstr "Max antal anmälningar är nått -inga fler anmälningar tillåts."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:202
+msgid "Please upload your image"
+msgstr "Ladda upp din bild"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:218
+msgid "Please provide the URL of your site"
+msgstr "Vänligen ange en URL till din site"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:220
+msgid "Please provide your phone number"
+msgstr "Skriv in ditt telefonnummer"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:222
+msgid "Please provide your email address"
+msgstr "Skriv in din E-post adress."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:224
+msgid "Please provide a brief description of yourself in the Bio field."
+msgstr "Skriv in en kortfattad beskrivning av dig själv i Bio fältet."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:239
+#, php-format
+msgid "You are already registered for the %s event."
+msgstr ""
+
+#: wp-content/plugins/eventr/show_registeration_form.php:244
+#, php-format
+msgid "'%s' has been added to the attendee list for event %s.<br />Thank you."
+msgstr ""
+
+#: wp-content/plugins/eventr/show_registeration_form.php:248
+msgid "Registeration failed..."
+msgstr ""
+
+#: wp-content/plugins/eventr/show_registeration_form.php:267
+msgid "Name"
+msgstr "Namn"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:267
+#: wp-content/plugins/eventr/show_registeration_form.php:273
+#: wp-content/plugins/eventr/show_registeration_form.php:279
+#: wp-content/plugins/eventr/show_registeration_form.php:285
+#: wp-content/plugins/eventr/show_registeration_form.php:291
+#: wp-content/plugins/eventr/show_registeration_form.php:297
+msgid "*"
+msgstr "*"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:268
+msgid "Name is mandatory"
+msgstr "Namn måste anges"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:273
+msgid "Bio"
+msgstr "Bio"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:275
+msgid "All HTML other than the &lt;A&gt; tag will be removed. nofollow will be added to the links to prevent spamming."
+msgstr "All HTML-kod utom &lt;A&gt; -taggen kommer att tas bort."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:279
+msgid "Url"
+msgstr "Url"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:281
+msgid "Your primary site"
+msgstr "Din site"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:287
+msgid "Your email will not be published."
+msgstr "Din e-post adress kommer inte att visas."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:291
+msgid "Phone"
+msgstr "Telefon"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:293
+msgid "Mobile or land-line"
+msgstr "Mobil eller fast telefon"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:297
+msgid "Image"
+msgstr "Bild"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:299
+msgid "150x150 picture works best"
+msgstr "Bilder i formatet 150x150 fungerar bäst."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:302
+msgid "Fields marked with a '*' are mandatory"
+msgstr "Fält märkta med '*' måste anges"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:315
+msgid "Register"
+msgstr "Registrera"
+
+#: wp-content/plugins/eventr/options.php:20
+msgid "Fields"
+msgstr "Fält"
+
+#: wp-content/plugins/eventr/options.php:22
+msgid "Bio/Description"
+msgstr "Bio/Beskrivning"
+
+#: wp-content/plugins/eventr/options.php:26
+msgid "Phone Number"
+msgstr "Telefon nummer"
+
+#: wp-content/plugins/eventr/options.php:34
+msgid "Site URL"
+msgstr "URL"
+
+#: wp-content/plugins/eventr/options.php:38
+msgid "Image Upload"
+msgstr "Bilduppladdning"
+
+#: wp-content/plugins/eventr/options.php:45
+msgid "Save Options"
+msgstr "Spara Inställningar"
+
+#: wp-content/plugins/eventr/attendee_check.php:29
+msgid "No name given"
+msgstr "Inget namn angivet"
+
+#: wp-content/plugins/eventr/events.php:29
+msgid "#"
+msgstr "#"
+
+#: wp-content/plugins/eventr/events.php:30
+msgid "Title"
+msgstr "Titel"
+
+#: wp-content/plugins/eventr/events.php:31
+msgid "Number Of Attendees"
+msgstr "Antal anmälningar"
+
+#: wp-content/plugins/eventr/events.php:45
+msgid "Inactive"
+msgstr "Inaktivt"
+
+#: wp-content/plugins/eventr/events.php:55
+msgid "Manage Attendees"
+msgstr "Hantera Anmälningar"
+
+#: wp-content/plugins/eventr/events.php:56
+msgid "Edit"
+msgstr "Redigera"
+
+#: wp-content/plugins/eventr/events.php:57
+#, php-format
+msgid "You are about to delete '%s'. This will delete all the attendees within this event. Press 'OK' to delete and 'Cancel' to stop."
+msgstr "Du håller på att ta bort '%s'. Alla anmälningar i detta evenemang kommer att tas bort. Klicka 'OK' för att fortsätta och 'Avbryt' för att avbryta."
+
+#: wp-content/plugins/eventr/events.php:64
+msgid "No events found."
+msgstr "Inga evenemang hittade."
+
+#: wp-content/plugins/eventr/events.php:72
+msgid "Create New Event"
+msgstr "Skapa Nytt Evenemang"
+

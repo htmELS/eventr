@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eventr\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-04-03 12:43+0100\n"
+"Last-Translator: Jakub Chodorowicz <jakub.chodorowicz@gmail.com>\n"
+"Language-Team: Jakub Chodorowicz <jakub.chodorowicz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: t;e\n"
+"X-Poedit-Basepath: /var/www/html/Others/Wordpress/wordpress/\n"
+"X-Poedit-SearchPath-0: wp-content/plugins/eventr\n"
+
+#: wp-content/plugins/eventr/event_form.php:16
+#, php-format
+msgid "%s Event"
+msgstr "%s Wydarzenie"
+
+#: wp-content/plugins/eventr/event_form.php:19
+#: wp-content/plugins/eventr/attendees.php:22
+#, php-format
+msgid "To add the registeration form to your blog, insert the code [EVENTR REGISTRATION %d] into any post."
+msgstr "Aby dodać formularz rejestracji wklej następujący kod do treści strony lub wpisu: [EVENTR REGISTRATION %d]"
+
+#: wp-content/plugins/eventr/event_form.php:41
+msgid "Event Name"
+msgstr "Nazwa"
+
+#: wp-content/plugins/eventr/event_form.php:48
+msgid "Description"
+msgstr "Opis"
+
+#: wp-content/plugins/eventr/event_form.php:55
+#: wp-content/plugins/eventr/events.php:32
+msgid "Event Date"
+msgstr "Data wydarzenia"
+
+#: wp-content/plugins/eventr/event_form.php:58
+msgid "Use YYYY-MM-DD format. This is an optional field - if you set a date, the event will not accept further registerations after the date."
+msgstr "Użyj formatu YYYY-MM-DD. To pole jest nieobowiązkowe - jeśli je ustawisz to po przekroczeniu daty nie będzie możliwe dalsze rejestrowanie się."
+
+#: wp-content/plugins/eventr/event_form.php:63
+msgid "Maximum Number of Attendees"
+msgstr "Maksymalna liczba uczestników"
+
+#: wp-content/plugins/eventr/event_form.php:66
+msgid "Set this as 0 to allow unlimited registerations."
+msgstr "W przypadku nieograniczonej liczby uczestników ustaw na '0'"
+
+#: wp-content/plugins/eventr/event_form.php:71
+#: wp-content/plugins/eventr/events.php:33
+msgid "Status"
+msgstr "Status"
+
+#: wp-content/plugins/eventr/event_form.php:73
+#: wp-content/plugins/eventr/events.php:45
+msgid "Active"
+msgstr "Aktywny"
+
+#: wp-content/plugins/eventr/event_form.php:84
+msgid "Save"
+msgstr "Zapisz"
+
+#: wp-content/plugins/eventr/attendees.php:5
+#: wp-content/plugins/eventr/attendees.php:101
+msgid "Delete Selected"
+msgstr "Usuń zaznaczone"
+
+#: wp-content/plugins/eventr/attendees.php:14
+msgid "Attendees for "
+msgstr "Uczestnicy"
+
+#: wp-content/plugins/eventr/attendees.php:23
+#, php-format
+msgid "To show the attendee list, insert the code [EVENTR ATTENDEES %d] into any post."
+msgstr "Aby wyświetlić listę uczestników wklej następujący tag do treści strony lub wpisu: [EVENTR ATTENDEES %d]"
+
+#: wp-content/plugins/eventr/attendees.php:31
+msgid "Attendee Name"
+msgstr "Imię uczestnika"
+
+#: wp-content/plugins/eventr/attendees.php:32
+#: wp-content/plugins/eventr/show_registeration_form.php:285
+#: wp-content/plugins/eventr/options.php:30
+msgid "Email"
+msgstr "Email"
+
+#: wp-content/plugins/eventr/attendees.php:33
+msgid "Registered On"
+msgstr "Data rejestracji"
+
+#: wp-content/plugins/eventr/attendees.php:34
+#: wp-content/plugins/eventr/events.php:34
+msgid "Action"
+msgstr "Akcja"
+
+#: wp-content/plugins/eventr/attendees.php:69
+#: wp-content/plugins/eventr/events.php:57
+msgid "Delete"
+msgstr "Usuń"
+
+#: wp-content/plugins/eventr/attendees.php:76
+msgid "No attendeees found."
+msgstr "Nie znaleziono żadnych uczestników"
+
+#: wp-content/plugins/eventr/attendees.php:102
+msgid "Export Attendee data for this event as a CSV file"
+msgstr "Wyeksportuj listę uczestników tego wydarzenia w postaci pliku CSV"
+
+#: wp-content/plugins/eventr/attendees.php:128
+msgid "Please select some rows to delete"
+msgstr "Proszę wybrać rekordy do usunięcia"
+
+#: wp-content/plugins/eventr/attendees.php:132
+msgid "You are about to delete this Attendee. Press 'OK' to delete and 'Cancel' to stop."
+msgstr "Właśnie usuwasz tego uczestnika. Kliknij 'OK', aby potwierdzic, albo 'Cancel', żeby wycofać się."
+
+#: wp-content/plugins/eventr/show_attendee_list.php:21
+msgid "Total Attendees: "
+msgstr "Liczba uczestników: "
+
+#: wp-content/plugins/eventr/show_attendee_list.php:49
+msgid "No attendees found."
+msgstr "Nie znaleziono żadnych uczestników"
+
+#: wp-content/plugins/eventr/eventr.php:22
+#: wp-content/plugins/eventr/events.php:19
+msgid "Manage Events"
+msgstr "Zarządzaj wydarzeniami"
+
+#: wp-content/plugins/eventr/eventr.php:34
+msgid "Eventr Settings"
+msgstr "Ustawienia Eventr"
+
+#: wp-content/plugins/eventr/eventr.php:37
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujesz&#8217; nie?"
+
+#: wp-content/plugins/eventr/eventr.php:38
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nie masz wystarczających uprawnień, żeby wejść na tę stronę."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:147
+msgid "Invalid Event ID given"
+msgstr "Podano złe ID wydarzenia."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:149
+msgid "The event have ended - no more registrations are allowed."
+msgstr "Niestety rejestrowanie się na to wydarzenie już nie jest możliwe."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:153
+msgid "Event is closed - no more registrations allowed."
+msgstr "Wydarzenie zostało zamkniętę - dalsze rejestracje nie są możliwe."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:159
+msgid "Maximum number of attendees reached - registrations are closed."
+msgstr "Osiągnięto maksymalną liczbę uczestników - dalsze rejestrowanie się nie jest możliwe."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:202
+msgid "Please upload your image"
+msgstr "Wgraj swoje zdjęcie."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:218
+msgid "Please provide the URL of your site"
+msgstr "Wprowadź adres URL swojej strony."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:220
+msgid "Please provide your phone number"
+msgstr "Wpisz swój numer telefonu"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:222
+msgid "Please provide your email address"
+msgstr "Wpisz swój adres email"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:224
+msgid "Please provide a brief description of yourself in the Bio field."
+msgstr "Wprowadź tu krótki opis siebie."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:239
+#, php-format
+msgid "You are already registered for the %s event."
+msgstr "Jesteś już zarejestrowany na %s."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:244
+#, php-format
+msgid "'%s' has been added to the attendee list for event %s.<br />Thank you."
+msgstr "Zostałeś zerejstrowany<br />Dziękujemy."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:248
+msgid "Registeration failed..."
+msgstr "Rejestracja nie powiodła się."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:267
+msgid "Name"
+msgstr "Imię i nazwisko"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:267
+#: wp-content/plugins/eventr/show_registeration_form.php:273
+#: wp-content/plugins/eventr/show_registeration_form.php:279
+#: wp-content/plugins/eventr/show_registeration_form.php:285
+#: wp-content/plugins/eventr/show_registeration_form.php:291
+#: wp-content/plugins/eventr/show_registeration_form.php:297
+msgid "*"
+msgstr "*"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:268
+msgid "Name is mandatory"
+msgstr "Imię i nazwisko są obowiązkowe."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:273
+msgid "Bio"
+msgstr "Bio"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:275
+msgid "All HTML other than the &lt;A&gt; tag will be removed. nofollow will be added to the links to prevent spamming."
+msgstr "Wszystkie tagi HTML oprócz &lt;A&gt; zostaną usunięte. Paremetr 'nofollow' zostanie dodany do linków, aby zapobiec spamowaniu."
+
+#: wp-content/plugins/eventr/show_registeration_form.php:279
+msgid "Url"
+msgstr "Url"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:281
+msgid "Your primary site"
+msgstr "Twoja strona"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:287
+msgid "Your email will not be published."
+msgstr "Twój adres email nie zostanie opublikowany"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:291
+msgid "Phone"
+msgstr "Telefon"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:293
+msgid "Mobile or land-line"
+msgstr "Komórkowy albo stacjonarny"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:297
+msgid "Image"
+msgstr "Obrazek"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:299
+msgid "150x150 picture works best"
+msgstr "Najlepiej obrazek 150x150px"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:302
+msgid "Fields marked with a '*' are mandatory"
+msgstr "Pola oznaczone '*' są obowiązkowe"
+
+#: wp-content/plugins/eventr/show_registeration_form.php:315
+msgid "Register"
+msgstr "Zapisz mnie"
+
+#: wp-content/plugins/eventr/options.php:20
+msgid "Fields"
+msgstr "Pola"
+
+#: wp-content/plugins/eventr/options.php:22
+msgid "Bio/Description"
+msgstr "Bio/opis"
+
+#: wp-content/plugins/eventr/options.php:26
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+#: wp-content/plugins/eventr/options.php:34
+msgid "Site URL"
+msgstr "Adres Url strony"
+
+#: wp-content/plugins/eventr/options.php:38
+msgid "Image Upload"
+msgstr "Wgrywanie obrazka"
+
+#: wp-content/plugins/eventr/options.php:45
+msgid "Save Options"
+msgstr "Opcje zapisywania"
+
+#: wp-content/plugins/eventr/attendee_check.php:29
+msgid "No name given"
+msgstr "Nie podałeś imienia."
+
+#: wp-content/plugins/eventr/events.php:29
+msgid "#"
+msgstr "#"
+
+#: wp-content/plugins/eventr/events.php:30
+msgid "Title"
+msgstr "Tytuł"
+
+#: wp-content/plugins/eventr/events.php:31
+msgid "Number Of Attendees"
+msgstr "Liczba uczestników"
+
+#: wp-content/plugins/eventr/events.php:45
+msgid "Inactive"
+msgstr "Nieaktywny"
+
+#: wp-content/plugins/eventr/events.php:55
+msgid "Manage Attendees"
+msgstr "Zarządzaj uczestnikami"
+
+#: wp-content/plugins/eventr/events.php:56
+msgid "Edit"
+msgstr "Edytuj"
+
+#: wp-content/plugins/eventr/events.php:57
+#, php-format
+msgid "You are about to delete '%s'. This will delete all the attendees within this event. Press 'OK' to delete and 'Cancel' to stop."
+msgstr "Właśnie usuwasz '%s'. Usuniesz jednocześnie wszystkich uczestników. Kliknij 'OK', aby potwierdzic, albo 'Cancel', żeby wycofać się."
+
+#: wp-content/plugins/eventr/events.php:64
+msgid "No events found."
+msgstr "Nie znaleziono żadnych wydarzeń"
+
+#: wp-content/plugins/eventr/events.php:72
+msgid "Create New Event"
+msgstr "Stwórz nowe wydarzenie"
+
